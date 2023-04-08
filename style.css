@@ -1,0 +1,133 @@
+/* .jong{
+    display: flex;
+    margin: auto;
+    width: 420px;
+    height: 300px;
+    justify-content: end;
+    
+    
+} */  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Edu+NSW+ACT+Foundation&family=Tillana:wght@400;600&display=swap');
+
+
+body{
+    background: linear-gradient(90deg, rgba(7,5,38,1) 47%, rgba(41,41,131,1) 77%, rgba(15,125,148,1) 100%);
+    /* background-image: url("ipul2.webp") */
+    font-family: 'Alkatra', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Tillana', cursive;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color :aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: fill;
+    padding: 10px;
+    box-shadow: 7px 5px 5px gray;
+    animation-name: heart;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.logo img{
+/* image-resolution: ; */
+/* height: 200%; */
+
+}
+
+/* .navbar{
+    background-color : #0B2447;
+} */
+
+@keyframes heart{
+    from{
+
+        /* transform: scale(0.9); */
+        background-color: aliceblue;
+        transform: rotateY(0deg);
+        
+    }
+    to{
+        /* transform: scale(1); */
+        background-color:burlywood;
+        transform: rotateY(180deg);
+    }
+
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+    .back{
+        background-color: gray;
+        
+    }
+
+    h1{
+        text-shadow: 8px 5px 8px black;
+    }
+
+    .hoe{
+        background-color: black;
+        width: auto;
+        border: 5px solid ;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px 10px 10px 10px;
+        transition: 1s;
+
+
+
+}
+/* .aing:hover {
+    background-color: aliceblue;
+} */
+.hoe:hover{
+    background-color: white;
+    color: black;
+}
+ .yoo{
+ color: white;
+ }
+ 
+/* .kudus{
+    background: linear-gradient(273deg, rgba(7,5,38,1) 25%, rgba(7,5,38,1) 47%, rgba(41,41,131,1) 77%, rgba(15,125,148,1) 100%);
+
+} */
+.kuntul{
+    padding-top: 100px;
+}
+
+    
